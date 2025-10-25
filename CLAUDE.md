@@ -3,18 +3,16 @@
 # Project Context
 We are building a **Flutter + Firebase** mobile app (iOS & Android) for a Christian community platform. 
 Users can:
+- Each person when creating account will be connected to an Alpha Group already. They can only interact and view posts from people from the same Alpha group. 
 - Log in (Firebase Auth)
-- See a “Question of the Day”
-- Post responses to a message board
+- Users will first see a system generated question (e.g. question of the week which is global) which is posted to a discussion board.
+- You can only view discussion comments from your own Alpha group members. All comments you make are also only viewed by Alpha group members. 
+- From a comment made by someone else, you can click on their profile and continue the discussion in a one on one in a direct message functionality between users in the same alpha group. The person who is messaged needs to be able to accept that invite to connect. 
 - Send intentional messages to connect with others
-- Discover and join Alpha groups nearby
+
+We want to develop using localhost, but please set it up so that it can be deployed as a firebase app on ANDROID AND IOS. 
 
 We want a **clean, scalable architecture**, following modern Flutter best practices.
-
-
-## Repository Status
-
-This is currently an empty repository with no codebase. The following sections will need to be updated once code is added to the repository.
 
 ## Development Commands
 
@@ -34,8 +32,12 @@ This is currently an empty repository with no codebase. The following sections w
 - **App should be testable** with unit, widget, and integration tests.
 
 ---
+## Repository Status
 
-# Folder / Repo Structure
+This is currently an empty repository with no codebase. The following sections will need to be updated once code is added to the repository.
+
+
+### Folder / Repo Structure
 
 alphaspark/
 ├── lib/
@@ -151,6 +153,13 @@ features/auth/
 ├── signup_screen.dart
 ├── auth_controller.dart
 └── auth_providers.dart
+
+# High Level Database Design
+/users/{userId}
+/groups/{groupId}
+/questions/{questionId}
+/groupComments/{questionId}_{groupId}/comments/{commentId}
+/groupChats/{groupId}/conversations/{conversationId}/messages/{messageId}
 
 # Tooling & Packages
 
