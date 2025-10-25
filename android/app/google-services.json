@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "771868268691",
+    "project_id": "alphaspark-55fb8",
+    "storage_bucket": "alphaspark-55fb8.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:771868268691:android:81352b39d5d5c15536d566",
+        "android_client_info": {
+          "package_name": "com.company.alphaspark"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "771868268691-cici9drheslb5rk9d61ho22pajoluia7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCosDPFf0UreiPd9sed3sBOZOhDkiu53s8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "771868268691-cici9drheslb5rk9d61ho22pajoluia7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

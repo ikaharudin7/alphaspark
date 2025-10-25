@@ -1,0 +1,10 @@
+# This is a placeholder file for the app icon
+# You'll need to replace this with actual PNG image files for each density:
+# - mipmap-mdpi: 48x48px
+# - mipmap-hdpi: 72x72px
+# - mipmap-xhdpi: 96x96px
+# - mipmap-xxhdpi: 144x144px
+# - mipmap-xxxhdpi: 192x192px
+
+# For now, you can use Android Studio's Image Asset Studio to generate these
+# or use online tools like https://romannurik.github.io/AndroidAssetStudio/
